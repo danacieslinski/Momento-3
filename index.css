@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+li a {
+  color: #000;
+}
+
+
+  ul{
+    list-style-type:none;
+  }
+
+  a{text-decoration:none;}
+
+  .topnav {
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  .topnav { 
+    overflow: hidden; 
+    background-color: rgb(0, 0, 0); 
+  }
+  
+  .topnav a { 
+    float: right; 
+    display: block; 
+    color: #000000; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 17px; 
+  }
+
+
+  .topnav .icon { display: none; }
+  .HEADER1 { height: 7.5%; width: 100%; }
+    
+  
+  .topnav a.Nosotros {
+    background-color: #000;
+    color: #D51313;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+
+  }
+
+  .topnav a.Nosotros:hover {
+    color: #d110c1;
+  }
+
+  .topnav a.Contacto {
+    background-color: #000;
+    color: #D51313;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+  }
+
+  .topnav a.Contacto:hover {
+    color: #d110c1;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .HEADER1 {
+  height: 7.5%;
+  width: 100% ;
+  }
+
+.LaMalaPub {
+  font-size: 400%;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.LISTAHEADER {
+
+  
+  text-align: right;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  flex: 100%;
+}
+
+
+.A1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.SECTION1 {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-image: url(LaMalaLogoFinalFinal.png);
+   background-size: cover;
+   background-position: center;
+}
+
+.SECTION2 {
+  height: 50%;
+  background-color: #000;
+}
+
+.Menu {
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  justify-content: space-between;
+  background-image: url(FotoMenu.png);
+  background-size: cover;
+  background-position: center;
+ }
+
+
+ .Menu:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+  box-shadow: #d110c1 (2, 2, 2, 2) ,#d110c1(2, 2, 2, 2);
+}
+
+
+ .MenuTexto {
+  font-family:'Bebas Neue', sans-serif;
+  width: 100%;
+  font-size: 50px;
+  color: #D51313;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.MenuTexto:hover {
+  color: #d110c1;
+}
+
+.Eventos {
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  justify-content: space-between;
+  background-image: url(FotoEventos.png);
+  background-size: cover;
+  background-position: center;
+ }
+
+.Eventos:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+
+} 
+
+.EventosTexto {
+  font-family:'Bebas Neue', sans-serif;
+  width: 50%;
+  font-size: 50px;
+  color: #D51313;
+  text-align: center;
+  justify-content: center;
+}
+
+.EventosTexto:hover {
+  color: #d110c1;
+}
+
+.Reservas {
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  justify-content: space-between;
+  background-image: url(FotoReservas.png);
+  background-size: cover;
+  background-position: center;
+ }
+
+
+.Reservas:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+
+} 
+
+.ReservasTexto {
+  font-family:'Bebas Neue', sans-serif;
+  width: 100%;
+  font-size: 50px;
+  color: #D51313;
+  text-align: center;
+  justify-content: center;
+}
+
+.ReservasTexto:hover {
+  color: #d110c1;
+}
+
+.FOOTER {
+  text-align: center;
+  font-family:'Bebas Neue', sans-serif;
+  background-color: black;
+  margin: 0%;
+  width: 100%;
+  height: 35% ;
+}
+
+.SEGUINOS {
+  font-size: medium;
+}
+
+.ArticleFooter {
+text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.LOGOSSEGUINOS {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  }
+
+.INSTAGRAM {
+width: 80px ;
+height: 80px ;
+}
+
+.FACEBOOK {
+width: 80px ;
+height: 80px ;
+}
+
+.TIKTOK {
+width: 80px ;
+height: 80px ;
+}
+
+.TWITTER {
+width: 80px ;
+height: 80px ;
+}
+
+.Seguinos {
+  font-family:'Bebas Neue', sans-serif;
+  width: 100%;
+  font-size: 180%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px)
+{
+
+  .A1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Menu {
+    width: 100%;
+  }
+
+  .Eventos {
+    width: 100%;
+  }
+  
+  .Reservas {
+    width: 100%;
+  }
+
+  .Seguinos {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .LOGOSSEGUINOS {
+  align-content: baseline;
+  }
+
+}
+
+@media screen and (max-width: 680px)
+{
+
+  .A1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Menu {
+    width: 100%;
+  }
+
+  .Eventos {
+    width: 100%;
+  }
+  
+  .Reservas {
+    width: 100%;
+  }
+
+}
+
+.SECTIONRESERVAS {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-image: url(TituloReservas.png);
+   background-size: cover;
+   background-position: center;
+}
+
+.SECTIONEVENTOS {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-image: url(TituloEventos.png);
+   background-size: cover;
+   background-position: center;
+}
+
+.SECTIONMENU {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-image: url(TituloMenu.png);
+   background-size: cover;
+   background-position: center;
+}
+
+.slideshow-container {
+  width: 60%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-color: #000;
+}
+
+.CARRUSEL {
+  background-color: #000;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-next {
+  right: 0;
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+/* styles.css */
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.mySlides2 {
+  display: none;
+}
+
+.mySlides2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para los controles del carrusel */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.FOOTEREVENTOS {
+  text-align: center;
+  font-family:'Bebas Neue', sans-serif;
+  background-color: black;
+  margin: 0%;
+  width: 100%;
+  height: 35% ;
+}
+
+.FOOTEREVENTOS2 {
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+
+  .RESERVAEVENTOS {
+      font-family:'Bebas Neue', sans-serif;
+      width: 100%;
+      font-size: 300%;
+      color: #D51313;
+      text-align: center;
+      justify-content: center;
+      margin-top: 50px;
+  }
+
+  .RESERVAEVENTOSE:hover {
+    color: #d110c1;
+  }
+
+  .Menu1 {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+    }
+  
+  .Bao {
+  width: 400px ;
+  height: 400px ;
+  }
+  
+  .Nuggets {
+  width: 400px ;
+  height: 400px ;
+  }
+  
+  .Pizza {
+  width: 400px ;
+  height: 400px ;
+  }
+  
+
+  .Menu2 {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+    }
+  
+  .Hamburguesa {
+  width: 400px ;
+  height: 400px ;
+  }
+  
+  .Entrada {
+  width: 400px ;
+  height: 400px ;
+  }
+  
+  .Entrada2 {
+  width: 400px ;
+  height: 400px ;
+  }
+  
+  .FORMSRESERVAS {
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+  }
+
+  .NombreYApellido {
+    color: white;
+  }
+
+  .FORMSRESERVAS {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .FORMSRESERVAS label {
+    color: red;
+    font-family: 'Bebas Neue', sans-serif ;
+    font-size: x-large;
+  }
+  

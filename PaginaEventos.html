@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <title>La Mala Pub</title>
+    </head>
+    <body>
+    <header class="HEADER1">
+        
+<div class="topnav" id="myTopnav">
+  <a href="https://www.instagram.com/lamalapub/" target="_blank" class="Nosotros">Nosotros</a>
+    <a href="#index.ccs" class="Contacto">Inicio</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+<!--
+        <nav class="NAV1">
+              <a href="#">Nosotros</a>
+              <a href="#">Contacto</a>   
+        </nav>
+    -->
+    </header>
+
+         <section class="SECTIONEVENTOS">
+            
+         </section>
+           
+            </style>
+            </head>
+            <body>
+            
+        <section class="CARRUSEL">
+
+            <div class="slideshow-container">
+              <div class="mySlides2">
+                <img src="EventoAfterBiza.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides2">
+                <img src="EventoCarisima.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides2">
+                <img src="EventoDJ.png" style="width:100%">
+              </div>
+
+              <div class="mySlides2">
+                <img src="EventoMyA.png" style="width:100%">
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+
+          </section>
+
+            <script>
+              var slideIndex = 1;
+              showSlides(slideIndex);
+            
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+            
+              function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides2");
+            
+                if (n > slides.length) {
+                  slideIndex = 1;
+                } else if (n < 1) {
+                  slideIndex = slides.length;
+                }
+            
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+            
+                slides[slideIndex - 1].style.display = "block";
+              }
+            </script>
+
+<footer class="FOOTEREVENTOS">
+            
+  <article class="FOOTEREVENTOS2">
+
+         <a href="PaginaReservas.html" >
+         <p class="RESERVAEVENTOS">Reservá tu lugar</p>
+        </a>
+
+  </article>
+
+</footer>
